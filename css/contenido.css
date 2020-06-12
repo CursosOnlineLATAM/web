@@ -1,0 +1,48 @@
+.contenido-principal{
+	width: 100%;
+
+}
+
+.contenido-detalles{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contenido-items{
+	padding-top: 5em;
+	width: 20em;
+	text-align: center;
+	margin: 3px;
+
+}
+
+.xfoto, .tiktokimg, .bio, .hotmart, .orgasmo, .ventas, .neuro{
+	width: 15em;
+	border-radius: 10px;
+
+}
+
+.monetiza{
+	width: 20em;
+	border-radius: 10px;
+}
+
+.return{
+	width: 18em;
+	border-radius: 10px;
+}
+
+.instafoto{
+	width: 17em;
+	height: 160px;
+	border-radius: 10px;
+}
+
+.envivo{
+	width: 17em;
+	height: 160px;
+	border-radius: 10px;
+}

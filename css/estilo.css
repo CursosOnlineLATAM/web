@@ -1,7 +1,6 @@
 body {
 	font-family: sans-serif;
 	color: #333;
-	font-size: 1rem;
 	line-height: 1.4em;
 	margin: 0;
 	width: 100%;
@@ -34,8 +33,6 @@ p {
 	left: 0;
 	top: 0;
 	width: 100%;
-
-
 }
 
 	.header a{
@@ -44,16 +41,14 @@ p {
 	}
 
 
-
 .logo {
-	width: 30em;
+	width: 430px;
 	position: relative;
 	right: 2em;
 	top: 1em;
 	transition: all 0.8s ease-in-out;
 	text-rendering: optimizeLegibility;
 } 
-
 
 .navigation ul {
 
@@ -102,6 +97,27 @@ p {
 
 }
 
+.bt-neon{
+	margin-top: 10px;
+	display: inline-block;
+	padding: 15px 30px;
+	color: black;
+	font-size: 1em;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+/* decoracion para al pasar el mouse por encima del botton se haga neon  */
+
+.bt-neon:hover{
+	font-size: 1.3em;
+	background: #EEEE87;
+	box-shadow: 0 0 10px #EEEE87, 0 0 40px #EEEE87, 0 0 80px #EEEE87;
+	border-radius: 20px;
+
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -118,3 +134,4 @@ p {
     }
 
 }
+

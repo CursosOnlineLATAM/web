@@ -1,0 +1,32 @@
+iframe {
+	margin: 230px;
+	width: 700px;
+	border-radius: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .logo {
+		width: 20em;
+		margin-left: 34px;
+		margin-bottom: 1em;
+
+    }
+
+    .navigation ul li a{
+    	font-style: normal;
+    	font-size: 1.2em;
+    }
+
+iframe {
+	width: 20em;
+
+}
+
+body{
+	height: 600px;
+}
+
+}
+

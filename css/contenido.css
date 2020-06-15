@@ -19,10 +19,16 @@
 
 }
 
-.xfoto, .tiktokimg, .bio, .hotmart, .orgasmo, .ventas, .neuro{
+.tiktokimg, .bio, .hotmart, .orgasmo, .ventas, .neuro{
 	width: 15em;
 	border-radius: 10px;
 
+}
+
+.xfoto{
+	width: 17em;
+	border-radius: 10px;
+	height: 200px;
 }
 
 .monetiza{
